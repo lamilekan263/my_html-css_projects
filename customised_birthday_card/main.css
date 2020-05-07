@@ -1,0 +1,62 @@
+body{
+    background-color:teal;
+    text-align: center;
+    font-family: monospace;
+    font-weight:900;
+    font-size:2em;
+    color:rgb(72, 83, 83);
+    margin:60px;
+    min-height:100vh;
+    overflow: hidden;
+}
+button{
+    padding:20px;
+    border-radius:16px 0px 16px 0px;
+    box-shadow: rgb(19, 20, 20);
+    background-color:teal;
+    color:white;
+    cursor: pointer;
+    transition:1s;
+    font-family: monospace;
+    font-size: 0.78em;
+    offset: none;
+    
+}
+#first{
+    height:100vh;
+    transition: ease-in-out;
+    
+    
+}
+#second{
+    height:100vh;
+    transition-delay: 2s;
+    margin-top:50px;
+   
+    
+}
+
+#sec{
+    transform:rotate(30deg);
+    position: absolute;
+    top:1100px;
+ }
+
+a{
+    text-decoration:none;
+    color:white;
+}
+img{
+    width:100%;
+}
+
+a button:hover{
+    background-color: white;
+    color:teal;
+    transition:2s;
+}
+@media(min-width:760px){
+    body{
+        margin:170px;
+    }
+}
